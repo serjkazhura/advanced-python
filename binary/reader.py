@@ -99,6 +99,7 @@ def main():
 
             pp(vertices)
 
+            # cleaning up the memory
             del vertices
             del mem
 
