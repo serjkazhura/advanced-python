@@ -36,7 +36,7 @@ class ChessCoordinate:
 class ChessCoordinateMemOptimized:
 
   # interning is a powerful mechanism for memory allocation optimization
-  # but it should only be used for IMMUTABLE objects!
+  # but it should only be used for IMMUTABLE objects! or you can have concurrency problems
   _interned = {}
 
   # cls - class
